@@ -10,14 +10,14 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Are You Cake?
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          The test is coming soon...
         </p>
 
-        <div className="grid">
+        {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -45,7 +45,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer>
@@ -54,8 +54,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Made with love by Mollysexwater {' '}
+          {/* <img src="/vercel.svg" alt="Vercel Logo" className="logo" /> */}
         </a>
       </footer>
 
